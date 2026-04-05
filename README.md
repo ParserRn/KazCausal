@@ -1,11 +1,16 @@
-# KazCausal
+# KazCausal: Causal Relation Extraction in Kazakh
 
-KazCausal is a manually annotated corpus of causal constructions in the Kazakh language. It supports research in low-resource NLP and agglutinative morphosyntax.
+This repository contains code, models, and annotated data for the paper:
 
-## Structure
+"A Four-Module Neural Architecture for the Automatic Extraction and Classification of Causal Relations in Text"
 
-- `data/`: contains the annotated corpus in JSON format
-- `notebooks/`: examples and demos in Jupyter
-- `models/`: optional scripts or classifiers
-- `preprocess.py`: data formatting tool
-- `LICENSE`: CC BY 4.0 License
+## Contents
+- Annotated dataset (3,223 sentences)
+- KazBERT-based models
+- Training and inference scripts
+- Evaluation results
+
+## Usage
+Run the pipeline:
+```bash
+python pipeline.py
